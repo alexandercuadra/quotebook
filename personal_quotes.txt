@@ -24,3 +24,9 @@ class MyPostgreConnection:
    %matplotlib inline
    tips = sns.load_dataset('tips')
    tips.head('10')
+   
+def creamos_una_funcion(self):
+    self.hola = hola
+    self.jugador = jugador
+
+    return
