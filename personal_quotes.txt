@@ -20,3 +20,7 @@ class MyPostgreConnection:
   def closeConn(self):
       self.connection.cursor.close()
       self.connection.close()
+
+   %matplotlib inline
+   tips = sns.load_dataset('tips')
+   tips.head('10')

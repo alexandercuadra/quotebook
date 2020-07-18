@@ -1,9 +1,17 @@
-hola
 
-prubea
+import seaborn as sns
+import matplotlib.pyplot as plt
+%matplotlib inline
+sns.set_style('whitegrid')
+titanic = sns.load_dataset('titanic')
+titanic.head()
 
 
-fila
-uhaisudhs
-sdagas
-adfgad
+
+
+
+
+
+
+
+
