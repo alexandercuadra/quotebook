@@ -30,3 +30,5 @@ def creamos_una_funcion(self):
     self.jugador = jugador
 
     return
+    
+sc = sc.parallelize("Madrid","España","Roma", Londres")
